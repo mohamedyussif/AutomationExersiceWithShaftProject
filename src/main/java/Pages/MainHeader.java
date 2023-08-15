@@ -14,9 +14,9 @@ public class MainHeader
     {
         this.webDriver = webDriver;
     }
-    public MainHeader assertOn_Logged_in_a_username_Link_IsDisplayed()
+    public MainHeader assertOn_Logged_in_a_username_Link_IsDisplayed(String name)
     {
-        webDriver.assertThat().element(loggedInAsUserName_Link).exists().perform();
+        webDriver.assertThat().element(loggedInAsUserName_Link).text().isEqualTo("Logged in as "+name+"").perform();
         return this;
     }
     public MainHeader assertOnDisplayedNameInLoggedInAsEqualToAccounName(String name)
