@@ -60,12 +60,18 @@ jobs:
         uses: actions/upload-artifact@v3
         with:
           name: Windows_Edge_Local_Allure
-          path: "generatedReportLinux_*.zip"
+          path: "generatedReport_*.zip"
       - name: Upload Execution Summary Report as Pipeline Artifact
         if: always()
         uses: actions/upload-artifact@v3
         with:
           name: Windows_Edge_Local_Summary
-          path: "execution-summary/ExecutionSummaryReport_Linux*.html"
+          path: "execution-summary/ExecutionSummaryReport_*.html"
+
+      - name: Publish Test Report
+        uses: mikepenz/action-junit-report@v3
+        if: success() || failure() # always run even if the previous step fails
+        with:
+          report_paths: 'target/surefire-reports/TEST-*.xml'
 
 
