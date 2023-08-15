@@ -1,4 +1,5 @@
 /target/
+/execution-summary/
 /allure-results/
 /extent-reports/
 debug.log
