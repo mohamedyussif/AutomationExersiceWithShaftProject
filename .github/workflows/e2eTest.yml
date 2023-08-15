@@ -33,3 +33,4 @@ jobs:
         uses: actions/upload-artifact@v3
         with:
           name: Windows_Edge_Local_Summary
+          path: "execution-summary/ExecutionSummaryReport_*.html"
