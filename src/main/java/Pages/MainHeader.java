@@ -17,8 +17,8 @@ public class MainHeader
     }
     public MainHeader assertOn_Logged_in_a_username_Link_IsDisplayed(String name)
     {
-        JavaScriptWaitManager.waitForLazyLoading();
-        webDriver.element().waitToBeReady(loggedInAsUserName_Link);
+//        JavaScriptWaitManager.waitForLazyLoading();
+//        webDriver.element().waitToBeReady(loggedInAsUserName_Link);
         webDriver.assertThat().element(loggedInAsUserName_Link).text().isEqualTo("Logged in as "+name).perform();
         return this;
     }
