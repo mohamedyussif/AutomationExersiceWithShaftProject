@@ -1,3 +1,5 @@
+package tests;
+
 import Pages.AccountInformationDetails;
 import Pages.HomePage;
 import Pages.MainHeader;
