@@ -4,7 +4,7 @@ on:
   workflow_dispatch:
 
 env:
-  TESTING_SCOPE:"tests.TestRegisterUser"
+  TESTING_SCOPE: "tests.TestRegisterUser"
 
 jobs:
   Windows_Edge_Local:
