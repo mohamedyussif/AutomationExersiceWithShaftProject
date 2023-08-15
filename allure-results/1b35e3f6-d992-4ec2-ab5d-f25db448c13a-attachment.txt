@@ -1,0 +1,59 @@
+
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                        Starting Execution: '1 out of 1' test cases in the current suite                                        
+                                             Test Method: 'TestRegisterUser.checkUserRegisteration'                                             
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[ReportManager] Moved the mouse to the middle of the element. @15-08-2023 11:13:53.0733 AM
+[ReportManager] Click " Signup / Login". @15-08-2023 11:13:53.0872 AM
+[ReportManager] Assertion "ValidateElementExists" PASSED. Expected "Element Should Exist, locator 'By.xpath: //div[@class='signup-form']//h2'" and Actual "Element Exists". Comparison Type "EQUALS". Validation Type "POSITIVE". @15-08-2023 11:13:57.0470 AM
+[ReportManager] Assertion Passed: The Element located by "By.xpath: //div[@class='signup-form']//h2" exists. @15-08-2023 11:13:57.0472 AM
+[ReportManager] Successfully created attachment 'Screenshot - 1692087236942_checkUserRegisteration_ValidateElementExists_passed' @15-08-2023 11:13:57.0560 AM
+[ReportManager] Type "Mohamed" into "Name". @15-08-2023 11:13:58.0800 AM
+[ReportManager] Type "mohamed1692087233923@gmail.com" into "Email Address". @15-08-2023 11:13:59.0915 AM
+[ReportManager] Moved the mouse to the middle of the element. @15-08-2023 11:14:00.0961 AM
+[ReportManager] Click "Signup". @15-08-2023 11:14:01.0059 AM
+[ReportManager] Assertion "ValidateElementExists" PASSED. Expected "Element Should Exist, locator 'By.xpath: //b[contains(text(), 'Enter Account Information')]'" and Actual "Element Exists". Comparison Type "EQUALS". Validation Type "POSITIVE". @15-08-2023 11:14:04.0487 AM
+[ReportManager] Assertion Passed: The Element located by "By.xpath: //b[contains(text(), 'Enter Account Information')]" exists. @15-08-2023 11:14:04.0489 AM
+[ReportManager] Successfully created attachment 'Screenshot - 1692087244040_checkUserRegisteration_ValidateElementExists_passed' @15-08-2023 11:14:04.0497 AM
+[ReportManager] Moved the mouse to the middle of the element. @15-08-2023 11:14:05.0581 AM
+[ReportManager] Click "Mr.". @15-08-2023 11:14:05.0685 AM
+[ReportManager] Type "@Yussif010" into "Password *". @15-08-2023 11:14:06.0955 AM
+[ReportManager] Select "17" from "By.id: days". @15-08-2023 11:14:10.0051 AM
+[ReportManager] Select "5" from "By.id: months". @15-08-2023 11:14:12.0287 AM
+[ReportManager] Select "1998" from "By.id: years". @15-08-2023 11:14:15.0552 AM
+[ReportManager] Moved the mouse to the middle of the element. @15-08-2023 11:14:16.0597 AM
+[ReportManager] Click "Sign up for our newsletter!". @15-08-2023 11:14:16.0702 AM
+[ReportManager] Moved the mouse to the middle of the element. @15-08-2023 11:14:17.0769 AM
+[ReportManager] Click "Receive special offers from our partners!". @15-08-2023 11:14:17.0868 AM
+[ReportManager] Type "mohamed" into "First name *". @15-08-2023 11:14:18.0974 AM
+[ReportManager] Type "yussif" into "Last name *". @15-08-2023 11:14:20.0064 AM
+[ReportManager] Type "_VOIS" into "Company". @15-08-2023 11:14:21.0193 AM
+[ReportManager] Type "maadi" into "Address * (Street address, P.O. Box, Company name, etc.)". @15-08-2023 11:14:22.0281 AM
+[ReportManager] Type "Old Egypt" into "Address 2". @15-08-2023 11:14:23.0375 AM
+[ReportManager] Moved the mouse to the middle of the element. @15-08-2023 11:14:24.0418 AM
+[ReportManager] Click "Country *". @15-08-2023 11:14:24.0548 AM
+[ReportManager] Select "India" from "Country *". @15-08-2023 11:14:26.0089 AM
+[ReportManager] Type "old egypt" into "State *". @15-08-2023 11:14:27.0236 AM
+[ReportManager] Type "cairo" into "City * Zipcode *". @15-08-2023 11:14:28.0339 AM
+[ReportManager] Type "11211" into "By.id: zipcode". @15-08-2023 11:14:29.0423 AM
+[ReportManager] Type "01146771200" into "Mobile Number *". @15-08-2023 11:14:30.0561 AM
+[ReportManager] Moved the mouse to the middle of the element. @15-08-2023 11:14:31.0599 AM
+[ReportManager] Click "Create Account". @15-08-2023 11:14:31.0679 AM
+[ReportManager] Assertion "ValidateElementExists" PASSED. Expected "Element Should Exist, locator 'By.xpath: //h2[@class='title text-center']/b'" and Actual "Element Exists". Comparison Type "EQUALS". Validation Type "POSITIVE". @15-08-2023 11:14:35.0661 AM
+[ReportManager] Assertion Passed: The Element located by "By.xpath: //h2[@class='title text-center']/b" exists. @15-08-2023 11:14:35.0663 AM
+[ReportManager] Successfully created attachment 'Screenshot - 1692087275256_checkUserRegisteration_ValidateElementExists_passed' @15-08-2023 11:14:35.0670 AM
+[ReportManager] Moved the mouse to the middle of the element. @15-08-2023 11:14:36.0668 AM
+[ReportManager] Click "Continue". @15-08-2023 11:14:36.0752 AM
+[ReportManager] Assertion "ValidateElementExists" PASSED. Expected "Element Should Exist, locator 'By.xpath: //i[@class='fa fa-user']//parent::a'" and Actual "Element Exists". Comparison Type "EQUALS". Validation Type "POSITIVE". @15-08-2023 11:14:42.0771 AM
+[ReportManager] Assertion Passed: The Element located by "By.xpath: //i[@class='fa fa-user']//parent::a" exists. @15-08-2023 11:14:42.0772 AM
+[ReportManager] Successfully created attachment 'Screenshot - 1692087282084_checkUserRegisteration_ValidateElementExists_passed' @15-08-2023 11:14:42.0781 AM
+[ReportManager] Moved the mouse to the middle of the element. @15-08-2023 11:14:43.0778 AM
+[ReportManager] Click " Delete Account". @15-08-2023 11:14:43.0862 AM
+[ReportManager] Assertion "ValidateElementExists" PASSED. Expected "Element Should Exist, locator 'By.xpath: //h2//b'" and Actual "Element Exists". Comparison Type "EQUALS". Validation Type "POSITIVE". @15-08-2023 11:14:46.0793 AM
+[ReportManager] Assertion Passed: The Element located by "By.xpath: //h2//b" exists. @15-08-2023 11:14:46.0795 AM
+[ReportManager] Successfully created attachment 'Screenshot - 1692087286402_checkUserRegisteration_ValidateElementExists_passed' @15-08-2023 11:14:46.0803 AM
+[ReportManager] Moved the mouse to the middle of the element. @15-08-2023 11:14:47.0819 AM
+[ReportManager] Click "Continue". @15-08-2023 11:14:47.0904 AM
+[ReportManager] Successfully created attachment 'Animated Gif - checkUserRegisteration' @15-08-2023 11:14:47.0943 AM
+[ReportManager] Successfully created attachment 'SHAFT Engine Logs - Current Method log: beforeUserRegister' @15-08-2023 11:14:47.0955 AM
