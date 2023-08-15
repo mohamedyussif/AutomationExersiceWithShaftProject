@@ -1,6 +1,7 @@
 package Pages;
 
 import com.shaft.driver.SHAFT;
+import com.shaft.gui.browser.internal.JavaScriptWaitManager;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.testng.asserts.SoftAssert;
@@ -16,6 +17,7 @@ public class MainHeader
     }
     public MainHeader assertOn_Logged_in_a_username_Link_IsDisplayed(String name)
     {
+        JavaScriptWaitManager.waitForLazyLoading();
         webDriver.assertThat().element(loggedInAsUserName_Link).text().isEqualTo("Logged in as "+name).perform();
         return this;
     }

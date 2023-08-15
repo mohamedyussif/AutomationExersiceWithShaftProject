@@ -5,6 +5,7 @@ import Pages.HomePage;
 import Pages.MainHeader;
 import Pages.SignupPage;
 import com.shaft.driver.SHAFT;
+import com.shaft.gui.browser.internal.JavaScriptWaitManager;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
