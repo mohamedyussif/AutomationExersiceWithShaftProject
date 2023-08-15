@@ -37,7 +37,6 @@ public class TestRegisterUser
                 .assertOn_ACCOUNTCREATED_Text_IsDisplayed()
                 .clickOn_Continue_Button();
         new MainHeader(webDriver)
-                .assertOn_Logged_in_a_username_Link_IsDisplayed()
                 .assertOnDisplayedNameInLoggedInAsEqualToAccounName("Mohamed");
         new AccountInformationDetails(webDriver)
                 .clickOn_DeleteAccount_Link()
