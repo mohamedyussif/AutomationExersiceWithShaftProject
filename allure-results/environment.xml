@@ -42,7 +42,7 @@
   </parameter>
   <parameter>
     <key>sun.java.command</key>
-    <value>com.intellij.rt.testng.RemoteTestNGStarter -usedefaultlisteners false -socket49314 @w@C:\Users\YoussifM\AppData\Local\Temp\idea_working_dirs_testng4.tmp -temp C:\Users\YoussifM\AppData\Local\Temp\idea_testng11.tmp</value>
+    <value>com.intellij.rt.testng.RemoteTestNGStarter -usedefaultlisteners false -socket51999 @w@C:\Users\YoussifM\AppData\Local\Temp\idea_working_dirs_testng7.tmp -temp C:\Users\YoussifM\AppData\Local\Temp\idea_testng9.tmp</value>
   </parameter>
   <parameter>
     <key>jdk.debug</key>
@@ -69,12 +69,12 @@
     <value>true</value>
   </parameter>
   <parameter>
-    <key>java.vm.specification.vendor</key>
-    <value>Oracle Corporation</value>
-  </parameter>
-  <parameter>
     <key>java.specification.name</key>
     <value>Java Platform API Specification</value>
+  </parameter>
+  <parameter>
+    <key>java.vm.specification.vendor</key>
+    <value>Oracle Corporation</value>
   </parameter>
   <parameter>
     <key>rootLogger</key>
@@ -273,12 +273,20 @@
     <value>Zero based</value>
   </parameter>
   <parameter>
+    <key>intellij.debug.agent</key>
+    <value>true</value>
+  </parameter>
+  <parameter>
     <key>appender.file.layout.pattern</key>
     <value>[%-5level] %d{yyyy-MM-dd HH:mm:ss.SSS} [%t] %c{1} - %msg%n</value>
   </parameter>
   <parameter>
     <key>user.name</key>
     <value>YoussifM</value>
+  </parameter>
+  <parameter>
+    <key>jboss.modules.system.pkgs</key>
+    <value>com.intellij.rt</value>
   </parameter>
   <parameter>
     <key>java.class.path</key>
